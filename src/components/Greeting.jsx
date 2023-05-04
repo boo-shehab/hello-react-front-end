@@ -1,19 +1,28 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import getText from '../reducers/store';
+import React, { useEffect, useState } from 'react';
 
 function Greeting() {
-  const dispatch = useDispatch();
+  const [randomGreeting, setRandomGreeting] = useState('');
+
+  const fetchRandomGreeting = async () => {
+    try {
+      const response = await fetch('http://localhost:3000/random_greeting');
+      const data = await response.json();
+      setRandomGreeting(data.greeting);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   useEffect(() => {
-    dispatch(getText());
-  }, [dispatch]);
-  const message = useSelector((state) => state.message);
+    fetchRandomGreeting();
+  }, []);
 
   return (
-    <h1>
-        
-      {message.data.message && message.data.message}
-    </h1>
+    <div>
+      <h1>Random Greeting:</h1>
+      <h2>{randomGreeting}</h2>
+      <button type="button" onClick={fetchRandomGreeting}>Get Random Greeting</button>
+    </div>
   );
 }
 
