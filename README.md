@@ -2,21 +2,23 @@
 
 # 📗 Table of Contents
 
-<details>
-  <summary>📗 Table of Contents</summary>
-  <ul>
-    <li><a href="#-hello-rails-front-end-">📖 Hello Rails Front End</a></li>
-    <li><a href="#-built-with-">🛠 Built With</a></li>
-    <li><a href="#-getting-started-">💻 Getting Started</a></li>
-    <li><a href="#-authors-">👥 Authors </a></li>
-    <li><a href="#-future-features-">🔭 Future Features</a></li>
-    <li><a href="#-contributing-">🤝 Contributing</a></li>
-    <li><a href="#️-show-your-support-">⭐️ Show your support </a></li>
-    <li><a href="#-acknowledgments-">🙏 Acknowledgments </a></li>
-    <li><a href="#-license-">📝 License</a></li>
-  </ul>
-</details>
-
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[📖 Hello React Front End\] ](#-hello-rails-front-end-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+  - [How should it be tested](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 <br>
 
 <!-- PROJECT DESCRIPTION -->
@@ -44,6 +46,13 @@
 - Fetches data from a rails API endpoint
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Link to backend 🎨 <a name="key-features"></a>
+
+- [Backend](https://github.com/boo-shehab/hello-rails-back-end)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
